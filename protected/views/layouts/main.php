@@ -73,7 +73,7 @@
             <br><br><br><br><br>
 
             <?php echo TbHtml::small('Sistema de Apoyo a la Gestión de Donantes y Necesidades Médicas'); ?>
-            <?php echo TbHtml::small('Clinica Universidad del Bio Bio - 2014'); ?>
+            <?php echo TbHtml::small('Clinica Universidad del Bio Bio - 201648751'); ?>
 	</div> -->
 
 </div><!-- page -->
