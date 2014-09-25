@@ -42,6 +42,9 @@
                                 array('label'=>'Gestión Centros Médicos'
 					, 'url'=>array('/centroMedico/','view'=>'index')
 					, 'visible'=>Yii::app()->user->checkAccess('admin')),
+                                array('label'=>'Gestion Donantes'
+					, 'url'=>array('/donante/','view'=>'index')
+					, 'visible'=>Yii::app()->user->checkAccess('admin')),
 				//array('label'=>'Pacientes','url'=>array('/paciente'), 'visible'=>Yii::app()->user->checkAccess('Paciente') && !Yii::app()->user->checkAccess('admin')),
 				array('label'=>'Administrar Usuarios'
 					, 'url'=>Yii::app()->user->ui->userManagementAdminUrl
