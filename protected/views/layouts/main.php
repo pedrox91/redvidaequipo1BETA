@@ -49,6 +49,10 @@
 				array('label'=>'Administrar Usuarios'
 					, 'url'=>Yii::app()->user->ui->userManagementAdminUrl
 					, 'visible'=>Yii::app()->user->name=='admin'),
+                                array('label'=>'Paciente'
+					, 'url'=>Yii::app()->user->ui->userManagementAdminUrl
+					, 'visible'=>Yii::app()->user->name=='admin'),
+	
 				array('label'=>'Login'
 					, 'url'=>Yii::app()->user->ui->loginUrl
 					, 'visible'=>Yii::app()->user->isGuest),
