@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Ver Centros Médicos', 'url'=>array('index')),
-	array('label'=>'Crear Centros Médicos', 'url'=>array('create')),
+	array('label'=>'Registrar Centros Médicos', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "

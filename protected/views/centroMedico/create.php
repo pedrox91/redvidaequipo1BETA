@@ -13,7 +13,7 @@ $this->menu=array(
 );
 ?>
 
-<h1>Crear Centro Médico</h1>
+<h1>Registrar Centro Médico</h1>
 <div class="container-fluid">
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
 </div>

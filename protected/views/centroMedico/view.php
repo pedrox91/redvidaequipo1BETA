@@ -9,7 +9,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Ver Centro Médico', 'url'=>array('index')),
-	array('label'=>'Crear Centro Médico', 'url'=>array('create')),
+	array('label'=>'Registrar Centro Médico', 'url'=>array('create')),
 	array('label'=>'Actualizar Centro Médico', 'url'=>array('update', 'id'=>$model->rut_centro_medico)),
 	array('label'=>'Eliminar Centro Médico', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->rut_centro_medico),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Gestionar Centro Médico', 'url'=>array('admin')),

@@ -10,7 +10,7 @@ $this->breadcrumbs=array(
 
 $this->menu=array(
 	array('label'=>'Ver Centros Médicos', 'url'=>array('index')),
-	array('label'=>'Crear Centro Médico', 'url'=>array('create')),
+	array('label'=>'Registrar Centro Médico', 'url'=>array('create')),
 	array('label'=>'Ver Centro Médico', 'url'=>array('view', 'id'=>$model->rut_centro_medico)),
 	array('label'=>'Gestionar Centro Médico', 'url'=>array('admin')),
 );
